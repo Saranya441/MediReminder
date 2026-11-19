@@ -1,0 +1,32 @@
+# Build output and dependencies
+**/bin/
+**/obj/
+**/node_modules/
+**/dist/
+**/coverage/
+**/build-check/
+
+# Local configuration and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/appsettings.Development.json
+**/appsettings.Local.json
+**/secrets.json
+
+# Local databases, uploaded files, and generated keys
+**/*.mdf
+**/*.ldf
+MediReminder-Backend/MediReminderBackend/App_Data/
+**/temp-keys/
+
+# IDE and operating-system files
+.vs/
+**/.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.cache
+.DS_Store
+Thumbs.db
